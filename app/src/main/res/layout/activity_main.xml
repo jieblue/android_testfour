@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="291dp"
+            android:layout_height="66dp"
+            android:id="@+id/medittext"
+            android:hint="Search"></EditText>
+
+        <ImageButton
+            android:id="@+id/mbutton"
+            android:layout_width="119dp"
+            android:layout_height="63dp"
+            android:background="@drawable/search"></ImageButton>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/mhub"
+        android:layout_width="126dp"
+        android:layout_height="106dp"
+        android:background="@drawable/local">
+
+    </ImageButton>
+
+
+</LinearLayout>
